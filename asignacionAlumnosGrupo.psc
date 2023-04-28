@@ -15,6 +15,10 @@ Algoritmo asignacionAlumnosGrupo
 	Escribir " H ó h para hombre "
 	leer sexo
 	
+	//me aseguro de eliminar las mayusculas en el nombreIngresado
+	nombreIngresado<- Minusculas(nombreIngresado)
+	
+	//obtengo la iniciar del nombreIngresado
 	inicialNombre <- Subcadena(nombreIngresado,1,1)
 	
 	Escribir  "su inicial es ",inicialNombre
