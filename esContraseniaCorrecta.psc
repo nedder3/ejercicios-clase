@@ -3,7 +3,7 @@ Algoritmo esContraseniaCorrecta
 	Definir contraseniaUsuario ,ingreso como cadena
 	
 	
-	contraseniaUsuario<- "hola123"
+	contraseniaUsuario<- "HOLA123"
 	
 	Escribir  "ingrese una contrania" 
 	leer ingreso 
@@ -11,7 +11,7 @@ Algoritmo esContraseniaCorrecta
 	Escribir "la contrasenia almacenada  es :  ", contraseniaUsuario
 	Escribir "la contrasenia que ingreso es :  ", ingreso
 	
-	Si ingreso == contraseniaUsuario Entonces
+	Si Mayusculas(ingreso) == contraseniaUsuario Entonces
 		
 		Escribir "ambas contrasenias son identicas"
 		
