@@ -4,7 +4,7 @@ Algoritmo calcuDolar
 	
 	definir cantDolar Como Entero
 	
-	Escribir  "ingrese la cantidad de pesos"
+	Escribir  "ingrese la cantidad de pesos "
 	leer pesos
 	
 	Escribir  "ingrese la cotizacion del dolar"
