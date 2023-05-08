@@ -4,6 +4,7 @@ Algoritmo asignacionAlumnosGrupo
 	
 	
 	//requisitos
+	
 	//grupo A -> mujeres con nombre anterior a M y hombres con nombre posterior a la N	
 	//grupo B -> hombres con nombre anterior a M y mujeres con nombre posterior a la N
 	
@@ -11,8 +12,8 @@ Algoritmo asignacionAlumnosGrupo
 	leer nombreIngresado
 	
 	Escribir "ingrese su sexo :  "
-	escribir " M ó m para mujer "
-	Escribir " H ó h para hombre "
+	escribir " M Ã³ m para mujer "
+	Escribir " H Ã³ h para hombre "
 	leer sexo
 	
 	//me aseguro de eliminar las mayusculas en el nombreIngresado
